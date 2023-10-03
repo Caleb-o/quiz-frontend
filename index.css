@@ -1,0 +1,89 @@
+* {
+    color: white;
+    font-family: 'Roboto Condensed';
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#background {
+    background-image: url('./pexels-nicolas-postiglioni-421129-min.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Teko';
+    text-align: center;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+li {
+    display: flex;
+    list-style-type: none;
+    padding: 0.5rem;
+    background: #eeeee4;
+    color: black;
+    border: 1px solid black;
+    margin: 3px 0;
+}
+
+li:hover {
+    background: white;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+label {
+    color: black;
+    flex: 1;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#title {
+    font-style: italic;
+}
+
+button {
+    font-size: 0.9rem;
+    color: black;
+    width: 100px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+}
+
+#buttons {
+    justify-content: center;
+    display: flex;
+}
+
+#qbox {
+    background-color: rgba(39, 26, 66, 0.8);
+    z-index: 3;
+    position: absolute;
+    
+    width: 75%;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
